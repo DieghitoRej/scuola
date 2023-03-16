@@ -8,7 +8,7 @@ namespace Scuola
 {
    public class Scuola
     {
-        List<Alunno> listaAlunni = new List<Alunno>();
+        public List<Alunno> listaAlunni = new List<Alunno>();
         public string Nome { get; set; }
         public string Inidirizzo { get; set; }
         public string Apertura { get; set; }

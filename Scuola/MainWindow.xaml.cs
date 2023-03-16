@@ -15,14 +15,19 @@ using System.Windows.Shapes;
 
 namespace Scuola
 {
+    
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    
     public partial class MainWindow : Window
     {
+        // mi dispiace, ma non posso finire l'implementazione :(
         public MainWindow()
         {
+            Scuola scuolaNuova = new Scuola();
             InitializeComponent();
+            lblAlunni.ItemsSource = scuolaNuova.listaAlunni;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

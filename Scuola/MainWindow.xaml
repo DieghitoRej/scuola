@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="92,109,488,90" SelectionChanged="ListBox_SelectionChanged"/>
+        <ListBox x:Name="lblAlunni" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="92,109,488,90" SelectionChanged="ListBox_SelectionChanged"/>
         <TextBox x:Name ="txtCognome" HorizontalAlignment="Left" Margin="564,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name ="txtNome" HorizontalAlignment="Left" Margin="439,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name ="txtEtà" HorizontalAlignment="Left" Margin="564,192,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
