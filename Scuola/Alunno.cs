@@ -9,6 +9,7 @@ namespace Scuola
 
    public class Alunno
     {
+      //commento giusto per mostrare il pull
         
     public string Nome { get; set; }
     public string Cognome { get; set; }
