@@ -6,7 +6,32 @@ using System.Threading.Tasks;
 
 namespace Scuola
 {
-    class Class1
+   public class Alunno
     {
+        
+    public string Nome { get; set; }
+    public string Cognome { get; set; }
+    public int età { get; set; }
+    public string Città { get; set; }
+
+    public string ToString()
+     {
+       return ("nome: " + Nome + "cognome: " + Cognome + "età: " + età + "Città di residenza: " + Città);
+     }
+    public string Biennio(int età)
+        {
+            if (età < 16)
+            {
+                return "Biennio";
+            }
+            else
+            {
+                return "Triennio";
+            }
+        }
+
+
+
+
     }
 }
