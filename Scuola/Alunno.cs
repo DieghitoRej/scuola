@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Scuola
 {
-<<<<<<< HEAD
+
    public class Alunno
-=======
-    class Alunno
->>>>>>> scuola
     {
         
     public string Nome { get; set; }

@@ -23,20 +23,20 @@ namespace Scuola
             List<Alunno> alunniTrovati = new List<Alunno>();
             foreach(Alunno alunno in listaAlunni)
             {
-                string cognomeAlunno = (alunno.cognome).ToLower();
-                if(cognomeAlunno = cognome)
+                string cognomeAlunno = (alunno.Cognome).ToLower();
+                if(cognomeAlunno == cognome)
                 {
                     alunniTrovati.Add(alunno);
                 }
             }
             return alunniTrovati;
         }
-        public List<Alunno> RicercaEtà(string età)
+        public List<Alunno> RicercaEtà(int età)
         {
             List<Alunno> alunniTrovati = new List<Alunno>();
             foreach (Alunno alunno in listaAlunni)
             {
-                if (alunno.età = età)
+                if (alunno.età == età)
                 {
                     alunniTrovati.Add(alunno);
                 }
